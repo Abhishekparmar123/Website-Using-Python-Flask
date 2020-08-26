@@ -1,0 +1,10 @@
+{%extends "layout.html" %}
+{%block content%}
+    <script type="text/javascript" src={{ cdn_js }}></script>
+    <div>
+     <h1>MY WEBSITE PAGE</h1>
+     <p>This graph shows the stock values of GOOGLE (last 45 day from current day).</p>
+    </div>
+    {{ div1 | safe}}
+    {{ script1 | safe}}
+{%endblock%}
